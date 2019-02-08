@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    {{ message }}
+    <p>{{ message }}</p>
   </div>
 </template>
 
@@ -30,5 +30,8 @@ li {
 }
 a {
   color: #42b983;
+}
+p{
+  color: blue;
 }
 </style>
